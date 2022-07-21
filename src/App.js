@@ -25,7 +25,10 @@ function App() {
           <Banner />
           {!loading && (
             <div className='transition-image final'>
-              <img src={process.env.PUBLIC_URL + `/images/image-2.jpg`} />
+              <img
+                src={process.env.PUBLIC_URL + `/images/image-2.jpg`}
+                alt='img'
+              />
             </div>
           )}
         </>
